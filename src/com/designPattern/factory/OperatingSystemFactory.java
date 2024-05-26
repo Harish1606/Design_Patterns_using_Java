@@ -1,5 +1,9 @@
 package com.designPattern.factory;
 
+import com.designPattern.factory.phone.Android;
+import com.designPattern.factory.phone.IOS;
+import com.designPattern.factory.phone.Windows;
+
 public class OperatingSystemFactory {
     public OS getInstance(String str){
         if(str.equals("Open"))
