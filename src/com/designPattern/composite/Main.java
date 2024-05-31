@@ -1,5 +1,6 @@
 package com.designPattern.composite;
 
+//The Composite design pattern is a structural pattern used to compose objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly. This is particularly useful for building complex UI components, file systems, or organizational hierarchies.
 public class Main {
     public static void main(String[] args) {
         Leaf hardDrive = new Leaf(4000,"Hard Drive");
