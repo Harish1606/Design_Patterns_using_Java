@@ -1,5 +1,6 @@
 package com.designPattern.observer;
 
+//The Observer design pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. It is widely used in event handling systems, where an object (the subject) maintains a list of its dependents (observers) and notifies them of state changes.
 public class Main {
     public static void main(String[] args) {
         Channel telusko = new Channel();
